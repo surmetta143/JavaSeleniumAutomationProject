@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Suite">
+
+    <test name="Practice Page Test">
+        <classes>
+        
+            <class name="TestCases.Tests.LoginTest">
+            
+               <methods>
+               
+               <include name="VerifySignInButton"/>
+               
+               </methods>
+               
+                </class>
+            
+        </classes>
+    </test>
+
+</suite>

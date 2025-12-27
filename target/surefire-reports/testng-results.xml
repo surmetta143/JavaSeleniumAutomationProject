@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-26T21:50:49 IST" name="Selenium Test Suite" finished-at="2025-12-26T21:50:55 IST" duration-ms="5849">
+    <groups>
+    </groups>
+    <test started-at="2025-12-26T21:50:49 IST" name="Practice Page Test" finished-at="2025-12-26T21:50:55 IST" duration-ms="5849">
+      <class name="TestCases.Tests.LoginTest">
+        <test-method signature="VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@5f058f00]" started-at="2025-12-26T21:50:49 IST" name="VerifySignInButton" finished-at="2025-12-26T21:50:55 IST" duration-ms="5728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInButton -->
+      </class> <!-- TestCases.Tests.LoginTest -->
+    </test> <!-- Practice Page Test -->
+  </suite> <!-- Selenium Test Suite -->
+</testng-results>
