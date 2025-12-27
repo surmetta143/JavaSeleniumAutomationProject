@@ -14,7 +14,7 @@
                </methods>
                
                 </class>
-            
+            <class name="TestCases.Tests.SimpleTest"></class>
         </classes>
     </test>
 

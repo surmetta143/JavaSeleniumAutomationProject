@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-25T21:52:18 IST" name="Selenium Test Suite" finished-at="2025-12-25T21:52:29 IST" duration-ms="11271">
+  <suite started-at="2025-12-27T18:54:31 IST" name="Default suite" finished-at="2025-12-27T18:54:35 IST" duration-ms="3346">
     <groups>
     </groups>
-    <test started-at="2025-12-25T21:52:18 IST" name="Practice Page Test" finished-at="2025-12-25T21:52:29 IST" duration-ms="11271">
-      <class name="TestCases.Tests.SimpleTest">
-        <test-method signature="practicePageTest()[pri:0, instance:TestCases.Tests.SimpleTest@55141def]" started-at="2025-12-25T21:52:18 IST" name="practicePageTest" finished-at="2025-12-25T21:52:29 IST" duration-ms="11222" status="PASS">
+    <test started-at="2025-12-27T18:54:31 IST" name="Default test" finished-at="2025-12-27T18:54:35 IST" duration-ms="3346">
+      <class name="TestCases.Tests.LoginTest">
+        <test-method signature="VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@3270d194]" started-at="2025-12-27T18:54:31 IST" name="VerifySignInButton" finished-at="2025-12-27T18:54:35 IST" duration-ms="3301" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practicePageTest -->
-      </class> <!-- TestCases.Tests.SimpleTest -->
-    </test> <!-- Practice Page Test -->
-  </suite> <!-- Selenium Test Suite -->
+        </test-method> <!-- VerifySignInButton -->
+      </class> <!-- TestCases.Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

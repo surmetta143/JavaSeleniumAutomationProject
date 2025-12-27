@@ -18,6 +18,7 @@ import TestData.TestData;
 
 public class LoginTest {
 	
+	
 	@Test
 	public void VerifySignInButton() {
 		
@@ -26,6 +27,7 @@ public class LoginTest {
 		driver.get(TestData.url);
 		
 		LoginLocators obj=new LoginLocators(driver);
+		
 		
 		obj.ClickLoginButton();
 		

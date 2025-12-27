@@ -65,7 +65,10 @@
                 <version>3.2.5</version>
 
                 <configuration>
+                 <reportsDirectory>
+                    ${project.basedir}/src/test/java/Reports
 
+                </reportsDirectory>
                     <!-- Pick testng.xml -->
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
