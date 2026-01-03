@@ -3,18 +3,28 @@
 <suite name="Selenium Test Suite">
 
     <test name="Practice Page Test">
+    
+    
+    <groups>
+            
+    </groups>
+        
+        
         <classes>
         
-            <class name="TestCases.Tests.LoginTest">
+         <class name="TestCases.Tests.LoginTest"></class>
+           <class name="TestCases.Tests.LoginTestCases"></class>
+           <class name="TestCases.Tests.SelectTests"></class>
+          
             
-               <methods>
-               
-               <include name="VerifySignInButton"/>
-               
-               </methods>
-               
-                </class>
-            <class name="TestCases.Tests.SimpleTest"></class>
+        
+          
+            
+            
+           
+            
+              
+            
         </classes>
     </test>
 

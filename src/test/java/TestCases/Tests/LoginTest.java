@@ -19,8 +19,32 @@ import TestData.TestData;
 public class LoginTest {
 	
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void VerifySignInButton() {
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get(TestData.url);
+		
+		LoginLocators obj=new LoginLocators(driver);
+		
+		
+		obj.ClickLoginButton();
+		
+		obj.VerifySignInButton();
+		
+		driver.close();
+		
+		
+		
+		
+		
+	}
+	
+	
+	@Test(groups= {"regression"})
+
+	public void VerifySignInButton1() {
 		
 		WebDriver driver=new ChromeDriver();
 		

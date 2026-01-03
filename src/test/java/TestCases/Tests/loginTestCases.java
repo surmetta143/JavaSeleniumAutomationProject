@@ -20,7 +20,8 @@ class LoginTestCases  {
 	
 	
     
-    @Test
+    @Test(groups= {"smoke"})
+
     void VerifyStopButton()  {
     	
     	WebDriver driver = new ChromeDriver();
@@ -29,8 +30,19 @@ class LoginTestCases  {
     	
     	
     	
-    	driver.findElement(By.xpath("//button[@name='start']")).click();
+    	 WebElement x= driver.findElement(By.xpath("//button[@name='start']"));
+         
+    	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    	 
+    	 try {
     	
+    	x.click();
+    	 }catch(Exception e) {
+    		 WebElement x= driver.findElement(By.xpath("//button[@name='start']"));
+    		 x.click();
+    		 
+    	 }
+            
     	driver.findElement(By.xpath("//button[@name='stop']")).isDisplayed();
     	
     	driver.close();
@@ -41,6 +53,25 @@ class LoginTestCases  {
     	
         
     }
+    
+    @Test(groups= {"smoke"})
+    void VerifySelectButton()  {
+    	
+    	WebDriver driver = new ChromeDriver();
+    	
+    	// Step 1: Open application URL
+    	driver.get("https://jovial-buttercream-da99f3.netlify.app/");
+    	
+    	// Step 2: Click on Courses option
+    	driver.findElement(By.id("Courses")).click();
+    	
+    	
+    	// Step 3: Verify Select button is displayed
+    	driver.findElement(By.xpath("//button[text()='Select']")).isDisplayed();
+    	
+    	driver.close();
+    }
+
     
     
     
