@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 import POM.LoginLocators;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 
 import TestData.TestData;
@@ -58,6 +60,27 @@ public class LoginTest {
 		obj.VerifySignInButton();
 		
 		driver.close();
+		
+		
+		
+		
+		
+	}
+	@Test(groups= {"regression"})
+
+	public void VerifyCoursesOption() {
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get(TestData.url);
+		driver.findElement(By.id("Courses")).click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.findElement(By.xpath("//button[@id='select button']")).isDisplayed();
+		driver.close();
+		
+		
+		
+		
 		
 		
 		
