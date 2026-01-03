@@ -32,16 +32,9 @@ class LoginTestCases  {
     	
     	 WebElement x= driver.findElement(By.xpath("//button[@name='start']"));
          
-    	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    	 x.click();
     	 
-    	 try {
     	
-    	x.click();
-    	 }catch(Exception e) {
-    		 WebElement x= driver.findElement(By.xpath("//button[@name='start']"));
-    		 x.click();
-    		 
-    	 }
             
     	driver.findElement(By.xpath("//button[@name='stop']")).isDisplayed();
     	
