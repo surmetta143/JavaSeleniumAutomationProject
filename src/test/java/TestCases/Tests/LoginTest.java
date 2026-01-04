@@ -88,6 +88,27 @@ public class LoginTest {
 		
 	}
 	
+	@Test(groups= {"regression"})
+
+	public void ArjunTestCase() {
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get(TestData.url);
+		driver.findElement(By.id("Courses")).click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.findElement(By.xpath("//button[@id='select button']")).isDisplayed();
+		driver.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
 	
 	
 	
