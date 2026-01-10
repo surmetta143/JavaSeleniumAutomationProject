@@ -27,5 +27,7 @@ public class LoginLocators {
 	public void VerifySignInButton() {
 		driver.findElement(By.id("Submit")).isDisplayed();
 	}
-
+	public void VerifyFlipkartLoginButton() {
+		driver.findElement(By.xpath("//span[normalize-space()='Login']")).isDisplayed();
+	}
 }

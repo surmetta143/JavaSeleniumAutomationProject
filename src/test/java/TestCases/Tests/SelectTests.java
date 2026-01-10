@@ -3,6 +3,7 @@ package TestCases.Tests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import POM.LoginLocators;
 
@@ -15,10 +16,10 @@ import POM.SelectLocators;
 import Utilities.Base;
 
 
+@Test
 public class SelectTests {
 	
 	
-	@Test(groups= {"smoke"})
 	public void VerifySelectButton() {
 		
 		
@@ -44,8 +45,9 @@ public class SelectTests {
 		
 	}
 	
-	@Test
-	public void VerifyAlert() {
+	 @Test
+	   
+	public void VerifyAlert() throws InterruptedException {
 		
 		
 		WebDriver driver =new ChromeDriver();
@@ -55,9 +57,8 @@ public class SelectTests {
 		
 		obj.ClickCoursesOption();
 		obj.ClickSelectButton();
-        Base obj1 = new Base(driver);
-		
-		obj1.WaitForSomeTime(10);
+        
+        Thread.sleep(3000);
 		
 		Alert alert = driver.switchTo().alert();
 		
@@ -71,7 +72,7 @@ public class SelectTests {
 		
 	}
 
-	
+
 	
 
 }
