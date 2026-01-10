@@ -8,6 +8,7 @@ import POM.LoginLocators;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import TestData.TestData;
 import POM.SelectLocators;
@@ -43,7 +44,32 @@ public class SelectTests {
 		
 	}
 	
-	
+	@Test
+	public void VerifyAlert() {
+		
+		
+		WebDriver driver =new ChromeDriver();
+		
+		driver.get(TestData.url);
+        SelectLocators obj = new SelectLocators(driver);
+		
+		obj.ClickCoursesOption();
+		obj.ClickSelectButton();
+        Base obj1 = new Base(driver);
+		
+		obj1.WaitForSomeTime(10);
+		
+		Alert alert = driver.switchTo().alert();
+		
+		
+       	
+		alert.accept();
+		
+		driver.close();
+		
+		
+		
+	}
 
 	
 	
