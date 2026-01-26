@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-10T20:42:27 IST" name="Selenium Test Suite" finished-at="2026-01-10T20:43:01 IST" duration-ms="34273">
+  <suite started-at="2026-01-26T15:20:37 IST" name="Selenium Test Suite" finished-at="2026-01-26T15:21:20 IST" duration-ms="42436">
     <groups>
       <group name="regression">
         <method signature="LoginTest.ArjunTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="ArjunTestCase" class="TestCases.Tests.LoginTest"/>
@@ -17,59 +17,59 @@
         <method signature="LoginTestCases.VerifyStopButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" name="VerifyStopButton" class="TestCases.Tests.LoginTestCases"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-01-10T20:42:27 IST" name="Practice Page Test" finished-at="2026-01-10T20:43:01 IST" duration-ms="34273">
+    <test started-at="2026-01-26T15:20:37 IST" name="Practice Page Test" finished-at="2026-01-26T15:21:20 IST" duration-ms="42436">
       <class name="TestCases.Tests.Arjun">
-        <test-method signature="FlipkartLogin()[pri:0, instance:TestCases.Tests.Arjun@4d9e68d0]" started-at="2026-01-10T20:42:52 IST" name="FlipkartLogin" finished-at="2026-01-10T20:42:55 IST" duration-ms="2840" status="PASS">
+        <test-method signature="FlipkartLogin()[pri:0, instance:TestCases.Tests.Arjun@4d9e68d0]" started-at="2026-01-26T15:21:10 IST" name="FlipkartLogin" finished-at="2026-01-26T15:21:13 IST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlipkartLogin -->
-        <test-method signature="MouseHover()[pri:0, instance:TestCases.Tests.Arjun@4d9e68d0]" started-at="2026-01-10T20:42:55 IST" name="MouseHover" finished-at="2026-01-10T20:43:01 IST" duration-ms="6023" status="PASS">
+        <test-method signature="MouseHover()[pri:0, instance:TestCases.Tests.Arjun@4d9e68d0]" started-at="2026-01-26T15:21:13 IST" name="MouseHover" finished-at="2026-01-26T15:21:20 IST" duration-ms="6295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MouseHover -->
       </class> <!-- TestCases.Tests.Arjun -->
       <class name="TestCases.Tests.SelectTests">
-        <test-method signature="VerifyAlert()[pri:0, instance:TestCases.Tests.SelectTests@1d9b7cce]" started-at="2026-01-10T20:42:48 IST" name="VerifyAlert" finished-at="2026-01-10T20:42:50 IST" duration-ms="2149" status="PASS">
+        <test-method signature="VerifyAlert()[pri:0, instance:TestCases.Tests.SelectTests@1d9b7cce]" started-at="2026-01-26T15:21:03 IST" name="VerifyAlert" finished-at="2026-01-26T15:21:08 IST" duration-ms="5340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAlert -->
-        <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.SelectTests@1d9b7cce]" started-at="2026-01-10T20:42:50 IST" name="VerifySelectButton" finished-at="2026-01-10T20:42:52 IST" duration-ms="1970" status="PASS">
+        <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.SelectTests@1d9b7cce]" started-at="2026-01-26T15:21:08 IST" name="VerifySelectButton" finished-at="2026-01-26T15:21:10 IST" duration-ms="2182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySelectButton -->
       </class> <!-- TestCases.Tests.SelectTests -->
       <class name="TestCases.Tests.LoginTest">
-        <test-method signature="ArjunTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-10T20:42:27 IST" name="ArjunTestCase" finished-at="2026-01-10T20:42:30 IST" duration-ms="3320" status="PASS">
+        <test-method signature="ArjunTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:37 IST" name="ArjunTestCase" finished-at="2026-01-26T15:20:43 IST" duration-ms="5538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArjunTestCase -->
-        <test-method signature="BabutestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-10T20:42:30 IST" name="BabutestCase" finished-at="2026-01-10T20:42:32 IST" duration-ms="1995" status="PASS">
+        <test-method signature="BabutestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:43 IST" name="BabutestCase" finished-at="2026-01-26T15:20:45 IST" duration-ms="2176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BabutestCase -->
-        <test-method signature="ShivaTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-10T20:42:32 IST" name="ShivaTestCase" finished-at="2026-01-10T20:42:34 IST" duration-ms="1931" status="PASS">
+        <test-method signature="ShivaTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:45 IST" name="ShivaTestCase" finished-at="2026-01-26T15:20:48 IST" duration-ms="2622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShivaTestCase -->
-        <test-method signature="VerifyCoursesOption()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-10T20:42:34 IST" name="VerifyCoursesOption" finished-at="2026-01-10T20:42:36 IST" duration-ms="1949" status="PASS">
+        <test-method signature="VerifyCoursesOption()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:48 IST" name="VerifyCoursesOption" finished-at="2026-01-26T15:20:51 IST" duration-ms="3394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCoursesOption -->
-        <test-method signature="VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-10T20:42:36 IST" name="VerifySignInButton" finished-at="2026-01-10T20:42:38 IST" duration-ms="2029" status="PASS">
+        <test-method signature="VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:51 IST" name="VerifySignInButton" finished-at="2026-01-26T15:20:53 IST" duration-ms="2200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInButton -->
-        <test-method signature="VerifySignInButton1()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-10T20:42:38 IST" name="VerifySignInButton1" finished-at="2026-01-10T20:42:40 IST" duration-ms="1833" status="PASS">
+        <test-method signature="VerifySignInButton1()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:53 IST" name="VerifySignInButton1" finished-at="2026-01-26T15:20:55 IST" duration-ms="2314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInButton1 -->
       </class> <!-- TestCases.Tests.LoginTest -->
       <class name="TestCases.Tests.LoginTestCases">
-        <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" started-at="2026-01-10T20:42:40 IST" name="VerifySelectButton" finished-at="2026-01-10T20:42:42 IST" duration-ms="1860" status="PASS">
+        <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" started-at="2026-01-26T15:20:55 IST" name="VerifySelectButton" finished-at="2026-01-26T15:20:58 IST" duration-ms="2159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySelectButton -->
-        <test-method signature="VerifyStopButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" started-at="2026-01-10T20:42:42 IST" name="VerifyStopButton" finished-at="2026-01-10T20:42:48 IST" duration-ms="6309" status="PASS">
+        <test-method signature="VerifyStopButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" started-at="2026-01-26T15:20:58 IST" name="VerifyStopButton" finished-at="2026-01-26T15:21:03 IST" duration-ms="5154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStopButton -->

@@ -48,6 +48,22 @@ public class Arjun {
 					 
 	 driver.close();
 	}	
+	
+	@Test
+	public void VerifyBecomeASeller()throws InterruptedException {
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get(TestData.Flipkarturl);
+		
+		LoginLocators obj=new LoginLocators(driver);
+		obj.VerifyBecomeASeller();
+		
+		driver.close();
+		
+		
+	}
+	
 		
 	}
 

@@ -30,4 +30,7 @@ public class LoginLocators {
 	public void VerifyFlipkartLoginButton() {
 		driver.findElement(By.xpath("//span[normalize-space()='Login']")).isDisplayed();
 	}
+	public void VerifyBecomeASeller() {
+		driver.findElement(By.xpath("//a[contains(text(),'Become a Seller')]")).isDisplayed();
+	}
 }
