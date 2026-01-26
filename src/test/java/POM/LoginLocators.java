@@ -33,4 +33,11 @@ public class LoginLocators {
 	public void VerifyBecomeASeller() {
 		driver.findElement(By.xpath("//a[contains(text(),'Become a Seller')]")).isDisplayed();
 	}
+	public void Clickloginsignup() {
+		driver.findElement(By.xpath("//span[normalize-space()='Login/SignUp']")).click();
+	}
+	public void MobileTextBox() {
+		driver.findElement(By.xpath("//input[contains(@inputmode,'tel')]")).isDisplayed();
+	}	
+	
 }
