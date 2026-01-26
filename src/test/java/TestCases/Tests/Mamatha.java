@@ -48,4 +48,18 @@ public class Mamatha {
     	driver.close(); 
     }
 	
+	
+	@Test
+    void VerifyMamatha()  {
+    	
+    	WebDriver driver = new ChromeDriver();
+    	
+    	driver.get("https://www.rapido.bike/Home");
+    	
+    	driver.findElement(By.xpath("//input[@placeholder='Enter Pickup Location']")).isDisplayed();
+    	
+    	driver.findElement(By.xpath("//input[@placeholder='Enter Drop Location']")).isDisplayed();
+    	
+    	driver.close(); 
+    }
 	}
