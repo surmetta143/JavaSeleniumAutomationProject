@@ -18,6 +18,7 @@
         
          <class name="TestCases.Tests.SelectTests"></class>
          <class name="TestCases.Tests.LoginTest"></class>
+<<<<<<< HEAD
          <class name="TestCases.Tests.LoginTestCases"></class>
          <class name="TestCases.Tests.SelectTests"></class>
          <class name="TestCases.Tests.SelectRelated"></class>
@@ -27,6 +28,16 @@
          
          
          
+=======
+           <class name="TestCases.Tests.LoginTestCases"></class>
+           <class name="TestCases.Tests.SelectTests"></class>
+           <class name="TestCases.Tests.Arjun"></class>
+            
+        
+          
+            
+            
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
            
                   
             

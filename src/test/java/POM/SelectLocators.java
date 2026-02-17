@@ -25,6 +25,10 @@ WebDriver driver;
 		driver.findElement(By.id("select button")).isDisplayed();
 	}
 	
+public void ClickSelectButton() {
+		
+		driver.findElement(By.id("select button")).click();
+	}
 	
 
 

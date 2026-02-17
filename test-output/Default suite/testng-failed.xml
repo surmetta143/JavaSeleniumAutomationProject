@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="TestCases.Tests.SimpleTest">
         <methods>
           <include name="VerifyAlert"/>
         </methods>
       </class> <!-- TestCases.Tests.SimpleTest -->
+=======
+      <class name="TestCases.Tests.Arjun">
+        <methods>
+          <include name="VerifyBecomeASeller"/>
+        </methods>
+      </class> <!-- TestCases.Tests.Arjun -->
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

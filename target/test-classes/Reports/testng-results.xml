@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -13,6 +14,24 @@
         <method signature="SelectTests.VerifySelectButton()[pri:0, instance:TestCases.Tests.SelectTests@59fd97a8]" name="VerifySelectButton" class="TestCases.Tests.SelectTests"/>
         <method signature="SimpleTest.VerifyAlert()[pri:0, instance:TestCases.Tests.SimpleTest@14dd9eb7]" name="VerifyAlert" class="TestCases.Tests.SimpleTest"/>
         <method signature="SimpleTest.VerifyStopButton2()[pri:0, instance:TestCases.Tests.SimpleTest@14dd9eb7]" name="VerifyStopButton2" class="TestCases.Tests.SimpleTest"/>
+=======
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-26T15:20:37 IST" name="Selenium Test Suite" finished-at="2026-01-26T15:21:20 IST" duration-ms="42436">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.ArjunTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="ArjunTestCase" class="TestCases.Tests.LoginTest"/>
+        <method signature="LoginTest.BabutestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="BabutestCase" class="TestCases.Tests.LoginTest"/>
+        <method signature="LoginTest.ShivaTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="ShivaTestCase" class="TestCases.Tests.LoginTest"/>
+        <method signature="LoginTest.VerifyCoursesOption()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="VerifyCoursesOption" class="TestCases.Tests.LoginTest"/>
+        <method signature="LoginTest.VerifySignInButton1()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="VerifySignInButton1" class="TestCases.Tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" name="VerifySignInButton" class="TestCases.Tests.LoginTest"/>
+        <method signature="LoginTestCases.VerifySelectButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" name="VerifySelectButton" class="TestCases.Tests.LoginTestCases"/>
+        <method signature="LoginTestCases.VerifyStopButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" name="VerifyStopButton" class="TestCases.Tests.LoginTestCases"/>
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
       </group> <!-- smoke -->
       <group name="suresh">
         <method signature="SimpleTest.VerifyStopButton1()[pri:0, instance:TestCases.Tests.SimpleTest@14dd9eb7]" name="VerifyStopButton1" class="TestCases.Tests.SimpleTest"/>
@@ -21,6 +40,7 @@
         <method signature="LoginTestCases.VerifySelectButton()[pri:0, instance:TestCases.Tests.LoginTestCases@4d9e68d0]" name="VerifySelectButton" class="TestCases.Tests.LoginTestCases"/>
       </group> <!-- deepika -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2026-02-13T22:02:25 IST" name="Practice Page Test" finished-at="2026-02-13T22:03:44 IST" duration-ms="79530">
       <class name="TestCases.Tests.SimpleTest">
         <test-method signature="VerifyAlert()[pri:0, instance:TestCases.Tests.SimpleTest@14dd9eb7]" started-at="2026-02-13T22:03:00 IST" name="VerifyAlert" finished-at="2026-02-13T22:03:11 IST" duration-ms="10558" status="PASS">
@@ -56,20 +76,64 @@
       </class> <!-- TestCases.Tests.TodayTestcases -->
       <class name="TestCases.Tests.SelectTests">
         <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.SelectTests@59fd97a8]" started-at="2026-02-13T22:02:25 IST" name="VerifySelectButton" finished-at="2026-02-13T22:02:31 IST" duration-ms="6174" status="PASS">
+=======
+    <test started-at="2026-01-26T15:20:37 IST" name="Practice Page Test" finished-at="2026-01-26T15:21:20 IST" duration-ms="42436">
+      <class name="TestCases.Tests.Arjun">
+        <test-method signature="FlipkartLogin()[pri:0, instance:TestCases.Tests.Arjun@4d9e68d0]" started-at="2026-01-26T15:21:10 IST" name="FlipkartLogin" finished-at="2026-01-26T15:21:13 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartLogin -->
+        <test-method signature="MouseHover()[pri:0, instance:TestCases.Tests.Arjun@4d9e68d0]" started-at="2026-01-26T15:21:13 IST" name="MouseHover" finished-at="2026-01-26T15:21:20 IST" duration-ms="6295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHover -->
+      </class> <!-- TestCases.Tests.Arjun -->
+      <class name="TestCases.Tests.SelectTests">
+        <test-method signature="VerifyAlert()[pri:0, instance:TestCases.Tests.SelectTests@1d9b7cce]" started-at="2026-01-26T15:21:03 IST" name="VerifyAlert" finished-at="2026-01-26T15:21:08 IST" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAlert -->
+        <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.SelectTests@1d9b7cce]" started-at="2026-01-26T15:21:08 IST" name="VerifySelectButton" finished-at="2026-01-26T15:21:10 IST" duration-ms="2182" status="PASS">
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySelectButton -->
       </class> <!-- TestCases.Tests.SelectTests -->
       <class name="TestCases.Tests.LoginTest">
+<<<<<<< HEAD
         <test-method signature="VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@1d9b7cce]" started-at="2026-02-13T22:02:31 IST" name="VerifySignInButton" finished-at="2026-02-13T22:02:36 IST" duration-ms="4796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInButton -->
         <test-method signature="VerifySignInButton1()[pri:0, instance:TestCases.Tests.LoginTest@1d9b7cce]" started-at="2026-02-13T22:02:36 IST" name="VerifySignInButton1" finished-at="2026-02-13T22:02:41 IST" duration-ms="4810" status="PASS">
+=======
+        <test-method signature="ArjunTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:37 IST" name="ArjunTestCase" finished-at="2026-01-26T15:20:43 IST" duration-ms="5538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArjunTestCase -->
+        <test-method signature="BabutestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:43 IST" name="BabutestCase" finished-at="2026-01-26T15:20:45 IST" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BabutestCase -->
+        <test-method signature="ShivaTestCase()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:45 IST" name="ShivaTestCase" finished-at="2026-01-26T15:20:48 IST" duration-ms="2622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShivaTestCase -->
+        <test-method signature="VerifyCoursesOption()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:48 IST" name="VerifyCoursesOption" finished-at="2026-01-26T15:20:51 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCoursesOption -->
+        <test-method signature="VerifySignInButton()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:51 IST" name="VerifySignInButton" finished-at="2026-01-26T15:20:53 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInButton -->
+        <test-method signature="VerifySignInButton1()[pri:0, instance:TestCases.Tests.LoginTest@402bba4f]" started-at="2026-01-26T15:20:53 IST" name="VerifySignInButton1" finished-at="2026-01-26T15:20:55 IST" duration-ms="2314" status="PASS">
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInButton1 -->
       </class> <!-- TestCases.Tests.LoginTest -->
+<<<<<<< HEAD
       <class name="TestCases.Tests.SelectRelated">
         <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.SelectRelated@42e99e4a]" started-at="2026-02-13T22:02:51 IST" name="VerifySelectButton" finished-at="2026-02-13T22:02:56 IST" duration-ms="5074" status="PASS">
           <reporter-output>
@@ -86,6 +150,14 @@
           </reporter-output>
         </test-method> <!-- VerifySelectButton -->
         <test-method signature="VerifyStopButton()[pri:0, instance:TestCases.Tests.LoginTestCases@4d9e68d0]" started-at="2026-02-13T22:02:44 IST" name="VerifyStopButton" finished-at="2026-02-13T22:02:51 IST" duration-ms="6929" status="PASS">
+=======
+      <class name="TestCases.Tests.LoginTestCases">
+        <test-method signature="VerifySelectButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" started-at="2026-01-26T15:20:55 IST" name="VerifySelectButton" finished-at="2026-01-26T15:20:58 IST" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectButton -->
+        <test-method signature="VerifyStopButton()[pri:0, instance:TestCases.Tests.LoginTestCases@441772e]" started-at="2026-01-26T15:20:58 IST" name="VerifyStopButton" finished-at="2026-01-26T15:21:03 IST" duration-ms="5154" status="PASS">
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStopButton -->

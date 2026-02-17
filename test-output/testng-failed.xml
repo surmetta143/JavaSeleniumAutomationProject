@@ -3,11 +3,19 @@
 <suite name="Failed suite [Selenium Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Practice Page Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="TestCases.Tests.SimpleTest">
         <methods>
           <include name="VerifyStopButton2"/>
         </methods>
       </class> <!-- TestCases.Tests.SimpleTest -->
+=======
+      <class name="TestCases.Tests.Arjun">
+        <methods>
+          <include name="VerifyBecomeASeller"/>
+        </methods>
+      </class> <!-- TestCases.Tests.Arjun -->
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
     </classes>
   </test> <!-- Practice Page Test(failed) -->
 </suite> <!-- Failed suite [Selenium Test Suite] -->

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\POM\Locators.java
 C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\POM\LoginLocators.java
 C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\POM\SelectLocators.java
@@ -9,3 +10,15 @@ C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\TestCases\Tests\S
 C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\TestCases\Tests\TodayTestcases.java
 C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\TestData\TestData.java
 C:\Users\mskmo\eclipse-workspace\SeleniumProject\src\test\java\Utilities\Base.java
+=======
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\POM\Locators.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\POM\LoginLocators.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\POM\SelectLocators.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\TestCases\Tests\Arjun.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\TestCases\Tests\LoginTest.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\TestCases\Tests\loginTestCases.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\TestCases\Tests\SelectTests.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\TestCases\Tests\SimpleTest.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\TestData\TestData.java
+C:\Users\MSI\Downloads\New auto\JavaSeleniumAutomationProject\src\test\java\Utilities\Base.java
+>>>>>>> 7c3c8ebaf738519e7a891964749e70632498645b
