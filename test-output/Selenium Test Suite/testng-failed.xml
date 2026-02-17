@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCases.Tests.SimpleTest">
         <methods>
-          <include name="VerifyStopButton"/>
+          <include name="VerifyStopButton2"/>
         </methods>
       </class> <!-- TestCases.Tests.SimpleTest -->
     </classes>

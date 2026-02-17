@@ -42,7 +42,7 @@ public class LoginTest {
 	}
 	
 	
-	@Test(groups= {"regression"})
+	@Test(groups = {"deepika"})
 
 	public void VerifySignInButton1() {
 		

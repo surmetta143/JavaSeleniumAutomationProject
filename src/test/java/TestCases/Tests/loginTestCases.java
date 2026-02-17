@@ -47,9 +47,10 @@ class LoginTestCases  {
         
     }
     
-    @Test(groups= {"smoke"})
+    @Test(groups = {"deepika"})
     void VerifySelectButton()  {
-    	
+   
+    	5
     	WebDriver driver = new ChromeDriver();
     	
     	// Step 1: Open application URL
